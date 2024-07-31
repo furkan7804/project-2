@@ -1,0 +1,28 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+	int A,B,C,D,E,F,INPUT;
+	clrscr();
+	printf("enter your grade : ");
+	scanf("%d",&INPUT);
+	if (INPUT>90){
+	printf("Your Grade is A.Excellent work!Congratulations! You are eligible for the next level");
+	}
+	else if (INPUT>70){
+	printf("Your Grade is B.well done.Congratulations! You are eligible for the next leve");
+	}
+	else if (INPUT>60){
+	printf("Your grade is c.Good job.Congratulations! You are eligible for the next leve ");
+	}
+	else if (INPUT>40){
+	printf("Your grade id D.You passed.Congratulations! You are eligible for the next leve");
+	}
+
+	else {
+	printf("Your grade is f.Sorry,You failed.Please try again next time");
+	}
+	getch();
+
+
+  }
